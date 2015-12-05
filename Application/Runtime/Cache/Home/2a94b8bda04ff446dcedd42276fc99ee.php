@@ -71,8 +71,8 @@
                     </ul>
                 </li>
             </ul>
-            <button type="button" class="btn btn-primary" ng-click="save()" ng-show="!sortable">保存</button>
-            <button type="button" class="btn btn-primary" ng-click="publish()" ng-show="!sortable">发布</button>
+            <button type="button" class="btn btn-primary" ng-click="save()" ng-show="!sortable">发布</button>
+           <!-- <button type="button" class="btn btn-primary" ng-click="publish()" ng-show="!sortable">发布</button>-->
             <span class="float-right" ng-show="!sortable">发布后24小时内所有用户都将更新到新的菜单</span>
         </div>
 
